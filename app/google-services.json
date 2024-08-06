@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "365170571518",
+    "firebase_url": "https://task-organizer-c70ef-default-rtdb.firebaseio.com",
+    "project_id": "task-organizer-c70ef",
+    "storage_bucket": "task-organizer-c70ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365170571518:android:ef7ffece859198ca608daf",
+        "android_client_info": {
+          "package_name": "com.example.taskorganizer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAurXrNC7YQznf0fduOjZBgZU8RnHXQaZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

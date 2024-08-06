@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task Organizer</string>
+    <string name="dark_mode_experimental">Dark Mode (Experimental)</string>
+    <string name="user_email">User Email</string>
+    <string name="enter_password_to_continue">Enter password to continue</string>
+    <string name="todo">TODO</string>
+</resources>

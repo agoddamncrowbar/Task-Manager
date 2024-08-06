@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="20dp"
+    android:background="@color/palered"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addTask">
+    <EditText
+        android:id="@+id/taskDetailsA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="10"
+        android:textAlignment="textStart"
+        android:hint="Task details"
+        android:ems="10"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:background="@color/cream"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textColorHint="@color/darkcream"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/taskTitleA"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/taskTitleA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t123"
+        android:layout_marginTop="30dp"
+        android:background="@color/cream"
+        android:ems="10"
+        android:hint="Title"
+        android:padding="10dp"
+        android:inputType="text"
+        android:lines="10"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/uploadTskA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taskDetailsA"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:textSize="24sp"
+        android:text="Upload Task"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+    <Button
+        android:id="@+id/backA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uploadTskA"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/black"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <TextView
+        android:id="@+id/t123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Task Upload" />
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/tasktleA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Title"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/rptdetsTxt"
+        android:layout_below="@+id/tasktleA"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="Details"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backBtnA"
+        android:paddingHorizontal="40dp"
+        android:textSize="24sp"
+        android:layout_below="@+id/rptdetsTxt"
+        android:layout_marginVertical="10dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        android:backgroundTint="@color/cream"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"/>/>
+</RelativeLayout>

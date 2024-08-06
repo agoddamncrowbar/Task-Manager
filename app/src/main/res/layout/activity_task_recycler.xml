@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".taskRecycler">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/settingsBtn"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/baseline_settings_24"
+        />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:text="Task Manager" />
+
+
+</RelativeLayout>
